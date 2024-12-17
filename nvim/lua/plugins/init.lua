@@ -28,6 +28,9 @@ return {
         "fish",
 
         "python",
+
+        "html",
+        "markdown",
       },
     },
   },
@@ -38,15 +41,5 @@ return {
     lazy = true,
   },
 
-  {
-    "mfussenegger/nvim-lint",
-    event = "BufWritePre",
-    config = function()
-      require("lint").linters_by_ft = {
-        cpp = { "cppcheck" },
-        bash = { "shellcheck" },
-        python = { "pylint" },
-      }
-    end,
-  },
+  { "ellisonleao/glow.nvim", config = true, cmd = "Glow" },
 }

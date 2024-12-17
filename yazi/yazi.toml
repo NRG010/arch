@@ -15,6 +15,9 @@ edit = [
 play = [
     { run = 'mpv "$@"', orphan = true, for = "unix" },
 ]
+wine = [
+    { run = 'wine "$@"', orphan = true, for = "unix" },
+]
 zathura = [
     { run = 'zathura "$@"', orphan = true, for = "unix" },
 ]
@@ -23,6 +26,7 @@ zathura = [
 prepend_rules = [
     { name = "*.png", use = "imv" },
     { name = "*.jpg", use = "imv" },
+    { name = "*.exe", use = "wine" },
     { name = "*.gif", use = "play" },
     { name = "*.cbz", use = "zathura" },
     { name = "*.pdf", use = "zathura" },
