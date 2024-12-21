@@ -1,0 +1,12 @@
+yay -S --needed linux-headers nvidia neovim
+sudo cp ./grub /etc/default/grub
+sudo nvim /etc/default/grub
+sudo cp ./mkinitcpio.conf /etc/mkinitcpio.conf
+sudo nvim /etc/mkinitcpio.conf
+sudo mkdir -p /etc/modprobe.d/
+sudo cp ./nvidia.conf /etc/modprobe.d/
+sudo nvim /etc/modprobe.d/nvidia.conf
+sudo mkdir -p /etc/pacman.d/
+sudo cp ./nvidia.hook /etc/pacman.d/hooks/
+sudo grub-mkconfig -o /boot/grub/grub.cfg
+sudo mkinitcpio -P
