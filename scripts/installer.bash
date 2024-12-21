@@ -31,11 +31,11 @@ chsh -s /usr/bin/fish
 # Screenshot
 yay -S --needed slurp grim swappy
 
+# Window manager
+yay -S --needed hyprland hyprpaper wofi dunst bpytop
+
 # File explorer
 yay -S --needed imv zathura zathura-cb zathura-pdf-mupdf
-
-# Window manager
-yay -S --needed foot hyprland hyprpaper wofi dunst bpytop
 
 # Media
 yay -S --needed qutebrowser mpv yt-dlp obsidian qbittorrent
@@ -44,10 +44,9 @@ yay -S --needed qutebrowser mpv yt-dlp obsidian qbittorrent
 yay -S --needed nm-connection-editor networkmanager-openvpn
 
 # A.U.R applications
-yay -S --needed bibata-cursor-theme vivaldi-widevine wofi-emoji ani-cli uwsm
+yay -S --needed bibata-cursor-theme vivaldi-widevine wofi-emoji ani-cli uwsm wezterm-git
 
 # Theme
-sudo cp -r ./.* ~/
 yay -S --needed qt5ct qt5-wayland qt6ct qt6-wayland kvantum kvantum-qt5 gtk3 nwg-look nwg-displays
 
 # Audio
@@ -57,7 +56,7 @@ yay -S --needed pipewire pipewire-audio pipewire-alsa pipewire-pulse pipewire-ja
 yay -S --needed xdg-desktop-portal-hyprland xdg-desktop-portal-gtk wlsunset wl-clipboard cliphist brightnessctl polkit-kde-agent polkit unzip
 
 # Coding
-yay -S --needed pyright python-black python-isort shfmt bash-language-server stylua lua-language-server clang python-adblock rustup rust-analyzer github-cli cppcheck shellcheck python-pylint
+yay -S --needed pyright python-black python-isort shfmt bash-language-server stylua lua-language-server clang python-adblock rustup rust-analyzer github-cli
 
 # Cleaning
 yay -Yc
