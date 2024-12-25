@@ -1,6 +1,6 @@
 lines=7
 show=drun
-width=30%
+width=40%
 term=kitty
 show_all=true
 layer=overlay
