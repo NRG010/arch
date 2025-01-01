@@ -32,16 +32,10 @@ yay -S --needed pipewire pipewire-audio pipewire-alsa pipewire-pulse pipewire-ja
 yay -S --needed imv zathura zathura-cb zathura-pdf-mupdf yazi ffmpeg p7zip jq poppler fd ripgrep fzf zoxide imagemagick bat lsd wget github-cli
 
 # Coding
-yay -S --needed pyright python-black python-isort shfmt bash-language-server stylua lua-language-server clang rustup rust-analyzer
+yay -S --needed pyright python-black python-isort shfmt bash-language-server stylua lua-language-server clang rust-analyzer
 
 # Utilities
 yay -S --needed xdg-desktop-portal-hyprland xdg-desktop-portal-gtk wlsunset wl-clipboard cliphist brightnessctl polkit-kde-agent
 
-# Cleaning
-yay -Yc
-yay -Sc
-yay
-
 # Misc.
-rustup default stable
 sudo systemctl enable bluetooth.service

@@ -1,7 +1,7 @@
 lines=7
 show=drun
 width=40%
-term=kitty
+term=wezterm
 show_all=true
 layer=overlay
 gtk_dark=true
