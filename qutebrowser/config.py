@@ -2,8 +2,8 @@ config.load_autoconfig(False)
 
 # Bindings for normal mode
 config.bind(',M', 'hint links spawn mpv {hint-url}')
-config.bind(',D', 'hint links spawn wezterm start yt-dlp {hint-url}')
-config.bind(',d', 'spawn wezterm start yt-dlp {url}')
+config.bind(',D', 'hint links spawn ghostty -e yt-dlp {hint-url}')
+config.bind(',d', 'spawn ghostty -e yt-dlp {url}')
 config.bind(',m', 'spawn mpv {url}')
 
 c.auto_save.session = True

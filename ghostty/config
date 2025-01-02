@@ -1,0 +1,9 @@
+font-size = 13
+window-vsync = true
+window-padding-x = 5
+window-padding-y = 5
+theme = catppuccin-mocha
+shell-integration = fish
+window-decoration = false
+window-padding-balance = true
+font-family = "CaskaydiaCove Nerd Font Mono"
