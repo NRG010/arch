@@ -1,7 +1,7 @@
 return {
   {
     "stevearc/conform.nvim",
-    -- event = 'BufWritePre',
+    event = 'BufWritePre',
     opts = require "configs.conform",
   },
 
@@ -16,10 +16,9 @@ return {
   	"nvim-treesitter/nvim-treesitter",
   	opts = {
   		ensure_installed = {
+        "bash", "fish", "python",
   			"vim", "lua", "vimdoc",
-        "bash", "fish",
         "c", "cpp", "rust",
-        "python",
         "html", "markdown"
   		},
   	},
