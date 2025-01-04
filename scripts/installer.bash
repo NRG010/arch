@@ -28,20 +28,20 @@ paru -S --needed qt{5,6}ct qt{5,6}-wayland kvantum{,-qt5} gtk{3,4} nwg-{look,dis
 # Audio
 paru -S --needed pipewire{,-{audio,alsa,pulse,jack}} pamixer
 
+# C/C++
+paru -S --needed clang
+
 # Bluetooth
 paru -S --needed bluez{,-utils}
 
+# Format
+paru -S --needed shfmt stylua yapf
+
 # Python
-paru -S --needed tk python-{lsp-server,numpy,pygame,matplotlib,adblock}
+paru -S --needed tk python-{lsp-server,adblock}
 
 # Lsp
 paru -S --needed {lua,bash}-language-server rust-analyzer
-
-# C/C++
-paru -S --needed ccls llvm cmake clang
-
-# Format
-paru -S --needed shfmt stylua yapf
 
 # Screen
 paru -S --needed xdg-desktop-portal-{hyprland,gtk} wlsunset brightnessctl
