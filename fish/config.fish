@@ -1,7 +1,7 @@
 # A.U.R..
 abbr pu "paru -R"
 abbr pi "paru -S --needed"
-abbr pc "paru -R $(paru -Qtdq)"
+abbr pc "paru -R '$(paru -Qtdq)'"
 
 # Git actions.
 abbr gb "git add -A; git commit -am '$(date +%d/%m/%y\ %H:%m)'; git push"
