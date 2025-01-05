@@ -23,7 +23,7 @@ paru -S --needed hypr{land,paper} wofi dunst bpytop ghostty polkit-kde-agent
 paru -S --needed bibata-cursor-theme vivaldi-widevine wofi-emoji ani-cli uwsm
 
 # Theme
-paru -S --needed qt{5,6}ct qt{5,6}-wayland kvantum{,-qt5} gtk{3,4} nwg-{look,displays}
+paru -S --needed qt{5,6}ct qt{5,6}-wayland kvantum{,-qt5} gtk{3,4} nwg-look
 
 # Audio
 paru -S --needed pipewire{,-{audio,alsa,pulse,jack}} pamixer
@@ -44,7 +44,7 @@ paru -S --needed tk python-{lsp-server,adblock}
 paru -S --needed {lua,bash}-language-server rust-analyzer
 
 # Screen
-paru -S --needed xdg-desktop-portal-{hyprland,gtk} wlsunset brightnessctl
+paru -S --needed xdg-desktop-portal-{hyprland,gtk}
 
 # Clipboard
 paru -S --needed wl-clipboard cliphist
@@ -56,7 +56,8 @@ paru -S --needed zathura{,-{cb,pdf-mupdf}}
 paru -S --needed yazi ffmpeg p7zip jq poppler fd ripgrep fzf zoxide imagemagick bat lsd wget github-cli
 
 # Gaming
-paru -S --needed steam wine{,-{gecko,mono}} limo
+paru -S --needed steam wine{,-{gecko,mono}}
 
 # Misc.
 sudo systemctl enable bluetooth.service
+systemctl --user enable --now hyprpaper.service
