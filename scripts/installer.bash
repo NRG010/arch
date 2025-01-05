@@ -56,7 +56,7 @@ paru -S --needed zathura{,-{cb,pdf-mupdf}}
 paru -S --needed yazi ffmpeg p7zip jq poppler fd ripgrep fzf zoxide imagemagick bat lsd wget github-cli
 
 # Gaming
-paru -S --needed steam wine{,-{gecko,mono}}
+paru -S --needed steam wine{,-{gecko,mono}} limo
 
 # Misc.
 sudo systemctl enable bluetooth.service
