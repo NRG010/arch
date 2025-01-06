@@ -34,9 +34,6 @@ paru -S --needed xdg-desktop-portal-{hyprland,gtk}
 # Media
 paru -S --needed qutebrowser mpv yt-dlp qbittorrent imv
 
-# Browser
-paru -S --needed vivaldi vivaldi-ffmpeg-codecs libnotify
-
 # A.U.R applications
 paru -S --needed bibata-cursor-theme wofi-emoji ani-cli uwsm
 
@@ -53,7 +50,7 @@ paru -S --needed pipewire{,-{audio,alsa,pulse,jack}} pamixer pavucontrol
 paru -S --needed qt{5,6}ct qt{5,6}-wayland kvantum{,-qt5} gtk{3,4} nwg-look
 
 # Window manager
-paru -S --needed hypr{land,paper} wofi dunst bpytop ghostty polkit-kde-agent
+paru -S --needed hypr{land,paper} wofi dunst bpytop ghostty polkit-kde-agent libnotify
 
 # Cli
 paru -S --needed yazi ffmpeg p7zip jq poppler fd ripgrep fzf zoxide imagemagick bat lsd wget github-cli
