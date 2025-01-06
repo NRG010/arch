@@ -13,4 +13,4 @@
 -o "%(title)s.%(ext)s"
 -P "$HOME/Videos/Downloads"
 --sponsorblock-remove sponsor
---format "bv*[height<=720]+ba/b[height<=720] / wv*+ba/w"
+--format "bv*[height<=1080]+ba/b[height<=1080] / wv*+ba/w"
