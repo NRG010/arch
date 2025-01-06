@@ -31,9 +31,6 @@ paru -S --needed tk python-{lsp-server,adblock}
 # Screen
 paru -S --needed xdg-desktop-portal-{hyprland,gtk}
 
-# Media
-paru -S --needed qutebrowser mpv yt-dlp qbittorrent imv
-
 # A.U.R applications
 paru -S --needed bibata-cursor-theme wofi-emoji ani-cli uwsm
 
@@ -54,6 +51,9 @@ paru -S --needed hypr{land,paper} wofi dunst bpytop ghostty polkit-kde-agent lib
 
 # Cli
 paru -S --needed yazi ffmpeg p7zip jq poppler fd ripgrep fzf zoxide imagemagick bat lsd wget github-cli
+
+# Media
+paru -S --needed qutebrowser mpv yt-dlp qbittorrent imv gst-plugins-{base,good,bad,ugly} gst-libav
 
 # Misc.
 sudo systemctl enable bluetooth.service
