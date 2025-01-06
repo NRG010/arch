@@ -53,7 +53,7 @@ paru -S --needed hypr{land,paper} wofi dunst bpytop ghostty polkit-kde-agent lib
 paru -S --needed yazi ffmpeg p7zip jq poppler fd ripgrep fzf zoxide imagemagick bat lsd wget github-cli
 
 # Media
-paru -S --needed qutebrowser mpv yt-dlp qbittorrent imv gst-plugins-{base,good,bad,ugly} gst-libav
+paru -S --needed qutebrowser mpv yt-dlp qbittorrent imv gst-{libav,plugins-{base,good,bad,ugly}}
 
 # Misc.
 sudo systemctl enable bluetooth.service
