@@ -19,9 +19,6 @@ paru -S --needed shfmt stylua yapf
 # Clipboard
 paru -S --needed wl-clipboard cliphist
 
-# Gaming
-paru -S --needed steam wine{,-{gecko,mono}}
-
 # Python
 paru -S --needed tk python-{lsp-server,adblock}
 
@@ -30,6 +27,9 @@ paru -S --needed xdg-desktop-portal-{hyprland,gtk}
 
 # Documents
 paru -S --needed zathura{,-{cb,pdf-poppler,djvu,ps}}
+
+# Gaming
+paru -S --needed gamescope steam wine{,-{gecko,mono}}
 
 # Network
 paru -S --needed nm-connection-editor networkmanager-openvpn
