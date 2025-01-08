@@ -28,9 +28,6 @@ paru -S --needed xdg-desktop-portal-{hyprland,gtk}
 # Documents
 paru -S --needed zathura{,-{cb,pdf-poppler,djvu,ps}}
 
-# Gaming
-paru -S --needed gamescope steam wine{,-{gecko,mono}}
-
 # Network
 paru -S --needed nm-connection-editor networkmanager-openvpn
 
@@ -45,6 +42,9 @@ paru -S --needed qt{5,6}{ct,-wayland} kvantum{,-qt5} gtk{3,4} nwg-look
 
 # Audio
 paru -S --needed pipewire{,-{audio,alsa,pulse,jack}} pamixer pavucontrol
+
+# Gaming
+paru -S --needed gamescope steam wine{,-{gecko,mono}} winetricks protontricks
 
 # Media
 paru -S --needed qutebrowser mpv yt-dlp imv gst-{libav,plugins-{base,good,bad,ugly}}
