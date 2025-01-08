@@ -59,3 +59,4 @@ paru -S --needed yazi ffmpeg p7zip jq poppler fd ripgrep fzf zoxide imagemagick 
 sudo gpasswd -a baldev seat
 sudo systemctl enable bluetooth.service
 systemctl --user enable --now hyprpaper.service
+systemctl --user enable --now hyprpolkitagent.service
