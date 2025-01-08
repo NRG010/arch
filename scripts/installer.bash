@@ -37,6 +37,9 @@ paru -S --needed nm-connection-editor networkmanager-openvpn
 # Lsp
 paru -S --needed {lua,bash}-language-server rust-analyzer clang
 
+# Window manager
+paru -S --needed hypr{land,paper} wofi dunst bpytop ghostty libnotify
+
 # Theme
 paru -S --needed qt{5,6}{ct,-wayland} kvantum{,-qt5} gtk{3,4} nwg-look
 
@@ -45,9 +48,6 @@ paru -S --needed pipewire{,-{audio,alsa,pulse,jack}} pamixer pavucontrol
 
 # Media
 paru -S --needed qutebrowser mpv yt-dlp imv gst-{libav,plugins-{base,good,bad,ugly}}
-
-# Window manager
-paru -S --needed hypr{land,paper} wofi dunst bpytop ghostty polkit-kde-agent libnotify
 
 # A.U.R applications
 paru -S --needed bibata-cursor-theme wofi-emoji ani-cli uwsm vivaldi-widevine youtube-music-bin
