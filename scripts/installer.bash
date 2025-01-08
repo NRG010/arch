@@ -50,7 +50,7 @@ paru -S --needed pipewire{,-{audio,alsa,pulse,jack}} pamixer pavucontrol
 paru -S --needed qutebrowser mpv yt-dlp imv gst-{libav,plugins-{base,good,bad,ugly}}
 
 # A.U.R applications
-paru -S --needed bibata-cursor-theme wofi-emoji ani-cli uwsm vivaldi-widevine youtube-music-bin
+paru -S --needed bibata-cursor-theme wofi-emoji ani-cli uwsm vivaldi-widevine youtube-music-bin hyprpolkitagent
 
 # Cli
 paru -S --needed yazi ffmpeg p7zip jq poppler fd ripgrep fzf zoxide imagemagick bat lsd wget github-cli
