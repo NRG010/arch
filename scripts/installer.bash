@@ -20,7 +20,7 @@ paru -S --needed shfmt stylua yapf
 paru -S --needed wl-clipboard cliphist
 
 # Gaming
-paru -S --needed steam wine{,-{gecko,mono}}
+# paru -S --needed steam wine{,-{gecko,mono}}
 
 # Python
 paru -S --needed tk python-{lsp-server,adblock}
@@ -46,14 +46,14 @@ paru -S --needed pipewire{,-{audio,alsa,pulse,jack}} pamixer pavucontrol
 # A.U.R applications
 paru -S --needed bibata-cursor-theme wofi-emoji ani-cli uwsm vivaldi-widevine
 
+# Media
+paru -S --needed qutebrowser mpv yt-dlp imv gst-{libav,plugins-{base,good,bad,ugly}}
+
 # Window manager
 paru -S --needed hypr{land,paper} wofi dunst bpytop ghostty polkit-kde-agent libnotify
 
 # Cli
 paru -S --needed yazi ffmpeg p7zip jq poppler fd ripgrep fzf zoxide imagemagick bat lsd wget github-cli
-
-# Media
-paru -S --needed qutebrowser mpv yt-dlp qbittorrent imv gst-{libav,plugins-{base,good,bad,ugly}}
 
 # Misc.
 sudo systemctl enable bluetooth.service
