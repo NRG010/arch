@@ -34,14 +34,14 @@ paru -S --needed nm-connection-editor networkmanager-openvpn
 # Lsp
 paru -S --needed {lua,bash}-language-server rust-analyzer clang
 
+# Gaming
+paru -S --needed steam wine{,-{gecko,mono}} winetricks protontricks
+
 # Theme
 paru -S --needed qt{5,6}{ct,-wayland} kvantum{,-qt5} gtk{3,4} nwg-look
 
 # Audio
 paru -S --needed pipewire{,-{audio,alsa,pulse,jack}} pamixer pavucontrol
-
-# Gaming
-paru -S --needed gamescope steam wine{,-{gecko,mono}} winetricks protontricks
 
 # Window manager
 paru -S --needed hypr{land,paper} wofi dunst bpytop libnotify ueberzugpp alacritty
