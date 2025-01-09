@@ -31,6 +31,9 @@ paru -S --needed zathura{,-{cb,pdf-poppler,djvu,ps}}
 # Network
 paru -S --needed nm-connection-editor networkmanager-openvpn
 
+# Window manager
+paru -S --needed hypr{land,paper} wofi dunst bpytop libnotify
+
 # Lsp
 paru -S --needed {lua,bash}-language-server rust-analyzer clang
 
@@ -43,20 +46,16 @@ paru -S --needed qt{5,6}{ct,-wayland} kvantum{,-qt5} gtk{3,4} nwg-look
 # Audio
 paru -S --needed pipewire{,-{audio,alsa,pulse,jack}} pamixer pavucontrol
 
-# Window manager
-paru -S --needed hypr{land,paper} wofi dunst bpytop libnotify ueberzugpp alacritty
-
-# Media
-paru -S --needed qutebrowser mpv yt-dlp imv gst-{libav,plugins-{base,good,bad,ugly}}
+# Browser
+paru -S --needed qutebrowser vivaldi{,-ffmpeg-codecs} gst-{libav,plugins-{base,good,bad,ugly}}
 
 # A.U.R applications
-paru -S --needed bibata-cursor-theme wofi-emoji ani-cli uwsm vivaldi-widevine youtube-music-bin hyprpolkitagent
+paru -S --needed bibata-cursor-theme wofi-emoji ani-cli uwsm youtube-music-bin hyprpolkitagent
 
 # Cli
-paru -S --needed yazi ffmpeg p7zip jq poppler fd ripgrep fzf zoxide imagemagick bat lsd wget github-cli
+paru -S --needed yazi ffmpeg p7zip jq poppler fd ripgrep fzf zoxide imagemagick bat lsd wget github-cli mpv yt-dlp imv ueberzugpp alacritty
 
 # Misc.
 sudo gpasswd -a baldev seat
 sudo systemctl enable bluetooth.service
 systemctl --user enable --now hyprpaper.service
-systemctl --user enable --now hyprpolkitagent.service
