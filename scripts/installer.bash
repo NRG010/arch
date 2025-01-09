@@ -16,11 +16,11 @@ paru -S --needed slurp grim swappy
 # Format
 paru -S --needed shfmt stylua yapf
 
-# Python
-paru -S --needed tk python-adblock
-
 # Clipboard
 paru -S --needed wl-clipboard cliphist
+
+# Python
+paru -S --needed tk python-{adblock,pynvim}
 
 # Screen
 paru -S --needed xdg-desktop-portal-{hyprland,gtk}
