@@ -1,9 +1,9 @@
 config.load_autoconfig(False)
 
 # Bindings for normal mode
+config.bind(',D', 'hint links spawn kitty yt-dlp {hint-url}')
+config.bind(',d', 'spawn kitty yt-dlp {url}')
 config.bind(',M', 'hint links spawn mpv {hint-url}')
-config.bind(',D', 'hint links spawn ghostty -e yt-dlp {hint-url}')
-config.bind(',d', 'spawn ghostty -e yt-dlp {url}')
 config.bind(',m', 'spawn mpv {url}')
 
 c.auto_save.session = True
@@ -12,11 +12,17 @@ config.set('content.cookies.accept', 'all', 'chrome-devtools://*')
 
 config.set('content.cookies.accept', 'all', 'devtools://*')
 
-config.set('content.headers.accept_language', '', 'https://matchmaker.krunker.io/*')
+config.set('content.headers.accept_language', '',
+           'https://matchmaker.krunker.io/*')
 
-config.set('content.headers.user_agent', 'Mozilla/5.0 ({os_info}) AppleWebKit/{webkit_version} (KHTML, like Gecko) {upstream_browser_key}/{upstream_browser_version} Safari/{webkit_version}', 'https://web.whatsapp.com/')
+config.set(
+    'content.headers.user_agent',
+    'Mozilla/5.0 ({os_info}) AppleWebKit/{webkit_version} (KHTML, like Gecko) {upstream_browser_key}/{upstream_browser_version} Safari/{webkit_version}',
+    'https://web.whatsapp.com/')
 
-config.set('content.headers.user_agent', 'Mozilla/5.0 ({os_info}; rv:133.0) Gecko/20100101 Firefox/133.0', 'https://accounts.google.com/*')
+config.set('content.headers.user_agent',
+           'Mozilla/5.0 ({os_info}; rv:133.0) Gecko/20100101 Firefox/133.0',
+           'https://accounts.google.com/*')
 
 config.set('content.images', True, 'chrome-devtools://*')
 
@@ -30,13 +36,17 @@ config.set('content.javascript.enabled', True, 'chrome://*/*')
 
 config.set('content.javascript.enabled', True, 'qute://*/*')
 
-config.set('content.local_content_can_access_remote_urls', True, 'file:///home/baldev/.local/share/qutebrowser/userscripts/*')
+config.set('content.local_content_can_access_remote_urls', True,
+           'file:///home/baldev/.local/share/qutebrowser/userscripts/*')
 
-config.set('content.local_content_can_access_file_urls', False, 'file:///home/baldev/.local/share/qutebrowser/userscripts/*')
+config.set('content.local_content_can_access_file_urls', False,
+           'file:///home/baldev/.local/share/qutebrowser/userscripts/*')
 
 c.hints.border = '1px solid #181825'
 
-c.statusbar.widgets = ['keypress', 'search_match', 'scroll', 'tabs', 'progress']
+c.statusbar.widgets = [
+    'keypress', 'search_match', 'scroll', 'tabs', 'progress'
+]
 
 c.tabs.position = 'bottom'
 
