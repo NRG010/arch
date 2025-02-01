@@ -41,13 +41,13 @@ yay -S --needed qt{5,6}{ct,-wayland} kvantum{,-qt5} gtk{3,4} nwg-look
 yay -S --needed pipewire{,-{audio,alsa,pulse,jack}} pamixer pavucontrol
 
 # Window manager
-yay -S --needed hypr{land,paper} wofi bpytop kitty steam qutebrowser uwsm hyprpolkitagent
+yay -S --needed hypr{land,paper} wofi bpytop kitty steam qutebrowser hyprpolkitagent
 
 # Cli
 yay -S --needed yazi ffmpeg p7zip jq poppler fd ripgrep fzf zoxide imagemagick bat lsd wget github-cli mpv yt-dlp imv
 
 # A.U.R applications
-yay -S --needed bibata-cursor-theme wofi-emoji ani-cli
+yay -S --needed bibata-cursor-theme ani-cli uwsm
 
 # Misc.
 sudo gpasswd -a baldev seat
