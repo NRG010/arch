@@ -7,8 +7,8 @@ yay -S --needed noto-fonts{,-{cjk,emoji,extra}} ttf-cascadia-code-nerd
 yay -S --needed fish starship
 chsh -s /usr/bin/fish
 
-# Bluetooth
-yay -S --needed bluez{,-utils}
+# Theme
+yay -S --needed kvantum nwg-look
 
 # Screenshot
 yay -S --needed slurp grim swappy
@@ -34,22 +34,17 @@ yay -S --needed nm-connection-editor networkmanager-openvpn
 # Lsp
 yay -S --needed {lua,bash}-language-server rust-analyzer clang
 
-# Theme
-yay -S --needed qt{5,6}{ct,-wayland} kvantum{,-qt5} gtk{3,4} nwg-look
-
 # Audio
-yay -S --needed pipewire{,-{audio,alsa,pulse,jack}} pamixer pavucontrol
+yay -S --needed pipewire{,-{audio,alsa,pulse,jack}} pamixer pavucontrol bluez{,-utils}
 
 # Window manager
-yay -S --needed hypr{land,paper} wofi bpytop kitty steam qutebrowser hyprpolkitagent
+yay -S --needed hypr{land,paper} wofi bpytop kitty steam qutebrowser hyprpolkitagent uwsm
 
 # Cli
 yay -S --needed yazi ffmpeg p7zip jq poppler fd ripgrep fzf zoxide imagemagick bat lsd wget github-cli mpv yt-dlp imv
-
-# A.U.R applications
-yay -S --needed bibata-cursor-theme ani-cli uwsm
 
 # Misc.
 sudo gpasswd -a baldev seat
 sudo systemctl enable bluetooth.service
 systemctl --user enable --now hyprpaper.service
+systemctl --user enable --now hyprpolkitagent.service

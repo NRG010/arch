@@ -1,5 +1,5 @@
 # A.U.R..
-abbr pu "yay -R"
+abbr pu "yay -Rncus"
 abbr pi "yay -S --needed"
 abbr pc "yay -Yc"
 

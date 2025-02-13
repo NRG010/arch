@@ -5,6 +5,7 @@ config.bind(',D', 'hint links spawn kitty yt-dlp {hint-url}')
 config.bind(',d', 'spawn kitty yt-dlp {url}')
 config.bind(',M', 'hint links spawn mpv {hint-url}')
 config.bind(',m', 'spawn mpv {url}')
+config.bind(',t', 'hint links spawn qbittorrent {hint-url}')
 
 c.auto_save.session = True
 
