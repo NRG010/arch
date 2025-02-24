@@ -17,13 +17,10 @@ yay -S --needed {lua,bash}-language-server clang pyright
 yay -S --needed pipewire{,-{audio,alsa,pulse,jack}} pamixer pavucontrol bluez{,-utils}
 
 # Window manager
-yay -S --needed hypr{land,paper} rofi-wayland bpytop kitty qutebrowser hyprpolkitagent uwsm
+yay -S --needed hyprland swww rofi-wayland btop kitty qutebrowser hyprpolkitagent uwsm dunst
 
 # Clipboard
 yay -S --needed wl-clipboard cliphist
-
-# Theme
-yay -S --needed kvantum nwg-look
 
 # Screenshot
 yay -S --needed slurp grim swappy
@@ -41,9 +38,8 @@ yay -S --needed zathura{,-{cb,pdf-mupdf}}
 yay -S --needed nm-connection-editor networkmanager-openvpn
 
 # Cli
-yay -S --needed yazi ffmpeg p7zip jq poppler fd ripgrep fzf zoxide imagemagick bat lsd wget github-cli mpv yt-dlp imv
+yay -S --needed yazi ffmpeg p7zip jq poppler fd ripgrep fzf zoxide imagemagick mpv yt-dlp imv aria2c
 
 # Misc.
 sudo systemctl enable bluetooth.service
-systemctl --user enable --now hyprpaper.service
 systemctl --user enable --now hyprpolkitagent.service

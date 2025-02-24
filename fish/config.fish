@@ -6,10 +6,6 @@ abbr pc "yay -Yc"
 # Git actions.
 abbr gb "git add -A; git commit -am '$(date +%d/%m/%y\ %H:%m)'; git push"
 
-# Replacements
-alias ls='lsd'
-alias cat='bat --paging=never'
-
 # Start window manager at login.
 if status is-login
   if test -z "$DISPLAY" -a "$XDG_VTNR" = 1
