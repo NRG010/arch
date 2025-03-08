@@ -37,8 +37,11 @@ yay -S --needed zathura{,-{cb,pdf-mupdf}}
 # Network
 yay -S --needed nm-connection-editor networkmanager-openvpn
 
+# theme
+yay -S --needed kvantum{,-qt5} nwg-look tela-circle-icon-theme-dracula
+
 # Cli
-yay -S --needed yazi ffmpeg p7zip jq poppler fd ripgrep fzf zoxide imagemagick mpv yt-dlp imv aria2c
+yay -S --needed yazi ffmpeg p7zip jq poppler fd ripgrep fzf zoxide imagemagick mpv yt-dlp imv aria2
 
 # Misc.
 sudo systemctl enable bluetooth.service

@@ -1,7 +1,7 @@
 # A.U.R..
+abbr pc "yay -Yc"
 abbr pu "yay -Rncus"
 abbr pi "yay -S --needed"
-abbr pc "yay -Yc"
 
 # Git actions.
 abbr gb "git add -A; git commit -am '$(date +%d/%m/%y\ %H:%m)'; git push"

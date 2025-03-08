@@ -6,25 +6,5 @@
 
 config_version: 2
 settings:
-  bindings.commands:
-    global:
-      normal:
-        ',D': hint links spawn kitty yt-dlp {hint-url}
-        ',M': hint links spawn mpv {hint-url}
-        ',d': spawn kitty yt-dlp {url}
-        ',m': spawn mpv {url}
   colors.webpage.darkmode.enabled:
     global: true
-  statusbar.show:
-    global: always
-  statusbar.widgets:
-    global:
-    - keypress
-    - search_match
-    - scroll
-    - tabs
-    - progress
-  tabs.position:
-    global: bottom
-  tabs.show:
-    global: switching
